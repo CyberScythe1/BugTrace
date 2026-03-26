@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({ 
-  origin: ['http://localhost:5173', 'https://bugtrace.vercel.app'], // Replace with your actual Vercel URL
+  origin: ['http://localhost:5173', 'https://bug-trace-zeta.vercel.app'], 
   credentials: true 
 }));
 app.use(express.json({ limit: '50mb' }));
